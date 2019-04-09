@@ -1,0 +1,266 @@
+/* Start font */
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+/* end font */
+
+
+/* start body*/
+body {
+    background-color: rgb(136, 93, 111);
+    color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* end body*/
+
+/* start debug */
+.bg-black {
+    background-color: pink;
+}
+.bg-pink {
+    background-color: pink;
+}
+
+/* end debug */
+
+/* start countainer*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* end countainer*/
+
+/* start logo */
+.logo {
+    text-align: center; 
+}
+/* end logo */
+
+/* start Anchor / hyperlink */
+a:link,
+a:visited{
+    color: #E9967A;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+     color: #E9967A;
+    text-decoration: underline;
+}
+/* end Anchor / hyperlink */
+
+/* start menu primer */
+.menu-primer ul {
+    background-color: pink;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px -1px tan,
+                0 6px 10px 0 rgb(175, 145, 175)
+                0 1px 18px 0 rgb(243, 194, 202)
+}
+.menu-primer li {
+    border-right: 1px solid rgb(167, 119, 167);
+    display: inline-block;
+    margin: 0 --4px;
+}
+.menu-primer a {
+    color: rgb(100, 14, 100);
+    font-size: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover{
+    background-color: grey;
+    color: violet;
+    text-decoration: none;
+}
+.menu-primer .active{
+    background-color: grey;
+    color: violet;
+    text-decoration: none;
+}
+/* end menu primer */
+
+/* start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+
+}
+h2 {
+    font-size: 24px;
+    
+}
+h3 {
+    font-size: 18px;
+    
+}
+h4 {
+    font-size: 16px;
+    
+}
+h5 {
+    font-size: 14px;
+    
+}
+h6 {
+    font-size: 13px;
+    
+}
+/* end Heading */
+
+/* start jumbotron*/
+.jumbotron {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbotron*/
+
+/* start Main */
+.main-home-one bg-grey {
+    float: left;
+    width: 50%
+}
+.main-home-two bg-grey {
+    float: right;
+    width: 50%
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+    
+}
+
+
+/* end Main */
+
+/* start box */
+.box-heading {
+    background-color: red
+    border: 1px solid grey;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: upperces;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: skyblue
+    border: 1px solid sienna;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: upperces;
+}
+
+/* end box */
+
+/* start menu sekunder*/
+
+.snip1556 {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    color: #000000;
+    display: inline-block;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    max-width: 310px;
+    min-width: 250px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: transparent;
+    box-shadow: none !important;
+    padding: 30px 40px 0 0;
+  }
+  
+  .snip1556 *,
+  .snip1556 *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+  }
+  
+  .snip1556 img {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    position: relative;
+    vertical-align: top;
+  }
+  
+  .snip1556 figcaption {
+    background-color: #333333;
+    bottom: 30px;
+    left: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .snip1556 h3 {
+    font-size: 16px;
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    color: #fff;
+    left: 100%;
+    letter-spacing: 1px;
+    margin: 12px 0;
+    opacity: 0.8;
+    padding: 6px 40px 0 0;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .snip1556 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .snip1556:hover figcaption,
+  .snip1556.hover figcaption {
+    background-color: #c0392b;
+  }
+/*  start favicon */
+.favicon {
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+}
